@@ -1,2 +1,23 @@
-# 11-Microservices-CI-CD-Project
-Its a Project where you find Deployment of 11 Microservices working simultaneously on EKS Cluster 
+# Shipping Service
+
+The Shipping service provides price quote, tracking IDs, and the impression of order fulfillment & shipping processes.
+
+## Local
+
+Run the following command to restore dependencies to `vendor/` directory:
+
+    dep ensure --vendor-only
+
+## Build
+
+From `src/shippingservice`, run:
+
+```
+docker build ./
+```
+
+## Test
+
+```
+go test .
+```
