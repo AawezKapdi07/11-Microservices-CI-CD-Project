@@ -1,2 +1,5 @@
-# 11-Microservices-CI-CD-Project
-Its a Project where you find Deployment of 11 Microservices working simultaneously on EKS Cluster 
+# checkoutservice
+
+Run the following command to restore dependencies to `vendor/` directory:
+
+    dep ensure --vendor-only
